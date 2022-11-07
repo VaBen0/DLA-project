@@ -6,7 +6,8 @@ D:\of_v0.11.2_vs2017_release\libs\openFrameworks\math\ofMatrix4x4.h(912,12): war
 D:\of_v0.11.2_vs2017_release\libs\openFrameworks\math\ofMatrix4x4.h(913,12): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
 D:\of_v0.11.2_vs2017_release\libs\openFrameworks\math\ofMatrix4x4.h(914,12): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
 D:\of_v0.11.2_vs2017_release\libs\openFrameworks\math\ofMatrix4x4.h(915,12): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-D:\of_v0.11.2_vs2017_release\apps\myApps\crystals\src\ofApp.cpp(35,3): warning C4996: 'ofCircle': Use ofDrawCircle instead
+D:\of_v0.11.2_vs2017_release\apps\myApps\crystals\src\ofApp.cpp(32,3): warning C4996: 'ofCircle': Use ofDrawCircle instead
+D:\of_v0.11.2_vs2017_release\apps\myApps\crystals\src\ofApp.cpp(34,3): warning C4996: 'ofCircle': Use ofDrawCircle instead
   crystals.vcxproj -> D:\of_v0.11.2_vs2017_release\apps\myApps\crystals\bin\crystals_debug.exe
   
   	                   2	D:\of_v0.11.2_vs2017_release\libs\fmod\lib\vs\x64\

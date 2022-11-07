@@ -4,17 +4,16 @@ float walkers[20] = {350, 120, 200, 300, 700, 900, 500, 400, 210, 110, 800, 600,
 float resist[20] = {350, 120, 200, 300, 700, 900, 500, 400, 210, 110, 800, 600, 900, 900, 700, 650, 800, 800, 770, 740};
 ofVec2f cl(512, 512);
 float V = 10;
-float x, y;
-void ofApp() {
-	cin >> x >> y;
+vector <float> cluster = { 500, 500 };
+int clus() {
+
 }
 void ofApp::setup(){
 	
 }
-
-//--------------------------------------------------------------
 void ofApp::update(){
 	ofVec2f Ve, walker;
+
 	for (int i = 0; i < 20; i+=2) {
 		ofVec2f dir(ofRandomf(), ofRandomf()), walker(walkers[i], walkers[i + 1]);
 		dir.normalize();
@@ -32,7 +31,10 @@ void ofApp::update(){
 //--------------------------------------------------------------
 void ofApp::draw(){
 	for (int i = 0; i < 20; i += 2) {
+		ofSetColor(250, 250, 250);
 		ofCircle(walkers[i], walkers[i + 1], 10);
+		ofSetColor(0, 0, 250);
+		ofCircle(cluster[0], cluster[1], 10);
 	}
 }
 
