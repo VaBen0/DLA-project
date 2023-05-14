@@ -6,10 +6,7 @@ D:\of_v0.11.2_vs2017_release\libs\openFrameworks\math\ofMatrix4x4.h(912,12): war
 D:\of_v0.11.2_vs2017_release\libs\openFrameworks\math\ofMatrix4x4.h(913,12): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
 D:\of_v0.11.2_vs2017_release\libs\openFrameworks\math\ofMatrix4x4.h(914,12): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
 D:\of_v0.11.2_vs2017_release\libs\openFrameworks\math\ofMatrix4x4.h(915,12): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
-D:\of_v0.11.2_vs2017_release\apps\myApps\DLA-project\src\ofApp.cpp(35,26): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-D:\of_v0.11.2_vs2017_release\apps\myApps\DLA-project\src\ofApp.cpp(52,3): warning C4996: 'ofCircle': Use ofDrawCircle instead
-D:\of_v0.11.2_vs2017_release\apps\myApps\DLA-project\src\ofApp.cpp(57,3): warning C4996: 'ofCircle': Use ofDrawCircle instead
-     Создается библиотека bin\DLA-project_debug.lib и объект bin\DLA-project_debug.exp
+D:\of_v0.11.2_vs2017_release\apps\myApps\DLA-project\src\ofApp.cpp(81,26): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
   DLA-project.vcxproj -> D:\of_v0.11.2_vs2017_release\apps\myApps\DLA-project\bin\DLA-project_debug.exe
   
   	                   2	D:\of_v0.11.2_vs2017_release\libs\fmod\lib\vs\x64\
